@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+    }
+
+    .column {
+      flex-basis: calc(100%/3);
+      padding-left: 8px;
+      padding-right: 8px;
+    }
+
+    img{
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <h1>Iron Man</h1>
+  <div class= "container">
+    <div class= "row">
+      <div class= "column">
+        <img src="https://static.wikia.nocookie.net/ironman/images/d/da/P170620_v_v8_ba.jpg/revision/latest?cb=20191202183622" alt="image of Iron Man 1 poster">
+        <h3>Iron Man 1</h3>
+        <p>A billionaire industrialist and genius inventor, Tony Stark (Robert Downey Jr.), is conducting weapons tests overseas,
+      but terrorists kidnap him to force him to build a devastating weapon. Instead, he builds an armored suit and upends his
+      captors. Returning to America, Stark refines the suit and uses it to combat crime and terrorism.</p>
+      </div>
+      <div class= "column">
+        <img src="https://www.cheapdigitalcodes.com/wp-content/uploads/2017/09/cover-iron-man-2.jpg" alt="image of Iron Man 2">
+        <h3>Iron Man 2</h3>
+        <p>With the world now aware that he is Iron Man, billionaire inventor Tony Stark (Robert Downey Jr.) faces pressure from
+      all sides to share his technology with the military. He is reluctant to divulge the secrets of his armored suit, fearing
+      the information will fall into the wrong hands. With Pepper Potts (Gwyneth Paltrow) and "Rhodey" Rhodes (Don Cheadle) by
+      his side, Tony must forge new alliances and confront a powerful new enemy.</p>
+      </div>
+      <div class= "column">
+        <img src="https://m.media-amazon.com/images/I/61Wfz2Zd2sL._AC_SY679_.jpg" alt="image of Iron Man 3 poster">
+        <h3>Iron Man 3</h3>
+        <p>Plagued with worry and insomnia since saving New York from destruction, Tony Stark (Robert Downey Jr.), now, is more
+      dependent on the suits that give him his Iron Man persona -- so much so that every aspect of his life is affected,
+      including his relationship with Pepper (Gwyneth Paltrow). After a malevolent enemy known as the Mandarin (Ben Kingsley)
+      reduces his personal world to rubble, Tony must rely solely on instinct and ingenuity to avenge his losses and protect
+      the people he loves.</p>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</body>
+</html>
