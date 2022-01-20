@@ -41,11 +41,9 @@ function getCircleCircumference (radius) {
 console.log('getCircleCircumference Exercise:', getCircleCircumference(5));
 
 function getFullName (firstName, lastName) {
-  firstName="Juan"
-  lastName="Ramirez"
   return firstName + ' '+ lastName;
 }
-console.log('getFullName Exercise:', getFullName());
+console.log('getFullName Exercise:', getFullName('Juan', 'Ramirez'));
 
 function cube (number) {
   return (number*number*number);
