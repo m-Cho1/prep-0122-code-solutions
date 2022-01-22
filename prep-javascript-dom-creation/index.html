@@ -17,9 +17,12 @@
     console.log($container);
 
     var $heading = document.createElement('h1');
-    var $heading = document.createTextNode('Hello World!');
-    $container.appendChild($heading);
+    console.log($heading);
 
+    var $text = document.createTextNode('Hello World!');
+    $heading.appendChild($text);
+
+    $container.appendChild($heading);
 
   </script>
 </body>
